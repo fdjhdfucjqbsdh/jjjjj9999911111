@@ -228,7 +228,7 @@
 <script>
 setTimeout(() => {
   if (document.getElementById('myTestAd').clientHeight == 0)
-      customAlert.alert("STOP BLOCKING MY ADVERTS!");
+      customAlert.alert("PLEASE DISABLE YOUR AD BLOCKER!");
 }, 3000)
 </script>
 
@@ -257,7 +257,7 @@ function CustomAlert(){
       document.getElementById('dialogboxhead').innerHTML = '<i class="fa fa-exclamation-circle" aria-hidden="true"></i> '+ title;
     }
     document.getElementById('dialogboxbody').innerHTML = message;
-    document.getElementById('dialogboxfoot').innerHTML = '<button class="pure-material-button-contained active" onclick="window.location.href=window.location.href">Yes</button>';
+    document.getElementById('dialogboxfoot').innerHTML = '<button class="pure-material-button-contained active" onclick="window.location.href=window.location.href">OK</button>';
   }
   
   this.ok = function(){
