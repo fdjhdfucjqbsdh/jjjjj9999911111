@@ -188,12 +188,12 @@
 
 #dialogbox > div{ 
   background:#FFF; 
-  margin:8px; 
+  margin:-50px; 
 }
 
 #dialogbox > div > #dialogboxhead{ 
   background: rgb(0, 77, 70); 
-  font-size:19px; 
+  font-size:16px; 
   padding:10px; 
   color:rgb(255, 255, 255); 
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -201,6 +201,7 @@
 
 #dialogbox > div > #dialogboxbody{ 
   background:rgb(0, 47, 43); 
+  font-size:12px; 
   padding:20px; 
   color:#FFF; 
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -228,8 +229,8 @@
 <script>
 setTimeout(() => {
   if (document.getElementById('myTestAd').clientHeight == 0)
-      customAlert.alert("PLEASE DISABLE YOUR AD BLOCKER!");
-}, 3000)
+      customAlert.alert("<p>We have detected that you are using adblocking plugin in your browser.<br/>The revenue we earn by the advertisements is used to manage this website, we request you to whitelist our website in your adblocking plugin.</p>","Ad blocker detected!");
+}, 2200)
 </script>
 
 
