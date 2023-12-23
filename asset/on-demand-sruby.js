@@ -4,7 +4,7 @@ for (var i = 0; i < videos.length; i++) { // for each
         var iframe = document.createElement('iframe'); // create <iframe>
         iframe.setAttribute('allowfullscreen', ''); // set attributes
         iframe.setAttribute('allow', 'autoplay; fullscreen');
-        iframe.setAttribute('src', 'https://wolfstream.tv/embed-'+ this.dataset.videoid +'.html'); // populate video ID
+        iframe.setAttribute('src', 'https://stmruby.com/embed-'+ this.dataset.videoid +'.html'); // populate video ID
         this.innerHTML = ''; // remove existing HTML (<a> & <img>)
         this.appendChild(iframe); // replace with <iframe>
         event.preventDefault(); // prevent link action
